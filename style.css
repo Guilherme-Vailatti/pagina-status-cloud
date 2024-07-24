@@ -1,0 +1,91 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+button {
+    border: #2c2c2c;
+    border-radius: 8px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.logo {
+    max-height: 50px; 
+
+}
+
+h1 {
+    color: #2ecc71; 
+    font-weight: 400;
+}
+
+.servico {
+    position: relative;
+    background-color: #ecf0f1; 
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex; 
+    justify-content: space-between; 
+}
+
+
+.servico span {
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    text-align: left; 
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.servico:hover {
+    background-color: #ddd; 
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ecf0f1; 
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 10px;
+    border-radius: 5px;
+    min-width: 200px;
+    width: max-content;
+    top: 100%;
+}
+
+
+.servico:hover .dropdown-content {
+    display: block;
+}
+
+
+.operacional {
+    background-color: #2ecc71;
+    color: white;
+}
+
+.instabilidade {
+    background-color: #d6c210; 
+    color: white;
+}
+
+.indisponibilidade {
+    background-color: #e74c3c; 
+    color: white;
+}
+
+
